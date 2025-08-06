@@ -303,9 +303,9 @@ export default function LandingPage() {
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4">
-                    "Reserve Pro ha revolucionado la gestión de nuestro
+                    &quot;Reserve Pro ha revolucionado la gestión de nuestro
                     restaurante. Hemos reducido las cancelaciones en un 60% y
-                    aumentado nuestra ocupación significativamente."
+                    aumentado nuestra ocupación significativamente.&quot;
                   </p>
                   <div className="flex items-center space-x-4">
                     <Image
@@ -335,9 +335,10 @@ export default function LandingPage() {
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4">
-                    "Como centro médico, necesitábamos un sistema confiable.
-                    Reserve Pro nos ha permitido organizar mejor las consultas y
-                    reducir los tiempos de espera de nuestros pacientes."
+                    &quot;Como centro médico, necesitábamos un sistema
+                    confiable. Reserve Pro nos ha permitido organizar mejor las
+                    consultas y reducir los tiempos de espera de nuestros
+                    pacientes.&quot;
                   </p>
                   <div className="flex items-center space-x-4">
                     <Image
