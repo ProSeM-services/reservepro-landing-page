@@ -10,6 +10,7 @@ import {
   BarChart3,
   ArrowRight,
   Shield,
+  CalendarCheck,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,13 +21,7 @@ export default function LandingPage() {
       {/* Header */}
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link className="flex items-center justify-center" href="#">
-          <Image
-            alt="Reserve Pro Dashboard"
-            className=""
-            height="10"
-            src="/logo-horizontal.png"
-            width="150"
-          />
+          <CalendarCheck className="text-[#6366F1] size-8" />
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
@@ -58,10 +53,10 @@ export default function LandingPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <section className="w-full h-[90dvh] py-12 md:py-24 lg:py-32 xl:py-48 flex justify-center items-center ">
           <div className="container mx-auto  px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <div className="flex flex-col justify-center space-y-4">
+              <div className="flex flex-col justify-center  gap-8">
                 <div className="space-y-2">
                   <Badge variant="secondary" className="w-fit">
                     📅 Sistema de Reservas
@@ -95,15 +90,15 @@ export default function LandingPage() {
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
-                    <CheckCircle className="h-4 w-4 text-green-500" />
+                    <CheckCircle className="h-4 w-4 text-[#6366F1] stroke-3" />
                     Sin tarjeta de crédito
                   </div>
                   <div className="flex items-center gap-1">
-                    <CheckCircle className="h-4 w-4 text-green-500" />
+                    <CheckCircle className="h-4 w-4 text-[#6366F1] stroke-3" />
                     Configuración inmediata
                   </div>
                   <div className="flex items-center gap-1">
-                    <CheckCircle className="h-4 w-4 text-green-500" />
+                    <CheckCircle className="h-4 w-4 text-[#6366F1] stroke-3" />
                     Soporte incluido
                   </div>
                 </div>
@@ -111,10 +106,10 @@ export default function LandingPage() {
               <div className="flex items-center justify-center">
                 <Image
                   alt="Reserve Pro Dashboard"
-                  className="mx-auto overflow-hidden rounded-xl object-cover object-center shadow-2xl"
-                  height="550"
-                  src="/landing.png"
-                  width="550"
+                  // className="mx-auto overflow-hidden rounded-xl object-cover object-center shadow-2xl"
+                  height="400"
+                  src="/logo.svg"
+                  width="400"
                 />
               </div>
             </div>
